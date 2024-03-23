@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".RecordsFragment">
+    <ImageView
+        android:id="@+id/Upload_from_Camera"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/camera"
+        app:layout_constraintBottom_toTopOf="@+id/scan_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Upload_from_Gallery"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scan_photo" />
+    <TextView
+        android:id="@+id/scan_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:text="SCAN PRESCRITION"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Upload_from_Camera"
+        app:layout_constraintStart_toStartOf="@+id/Upload_from_Camera"
+        app:layout_constraintTop_toBottomOf="@+id/Upload_from_Camera" />
+
+    <TextView
+        android:id="@+id/choose_from_gallary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:text="CHOOSE FROM GALLERY"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/Upload_from_Gallery"
+        app:layout_constraintStart_toStartOf="@+id/Upload_from_Gallery"
+        app:layout_constraintTop_toBottomOf="@+id/Upload_from_Gallery" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

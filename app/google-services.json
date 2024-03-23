@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "73500574537",
+    "firebase_url": "https://e-parchi-frontend-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "e-parchi-frontend",
+    "storage_bucket": "e-parchi-frontend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73500574537:android:b2e0c9de2aa70dd31b9098",
+        "android_client_info": {
+          "package_name": "com.example.e_parchi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73500574537-u8u1kdo8oo7uniq792399ke1hh74ltf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHiURkjTdcdfUMalUr0xA7srSwJg8trlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73500574537-u8u1kdo8oo7uniq792399ke1hh74ltf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73500574537:android:27cb9f23b9b25adf1b9098",
+        "android_client_info": {
+          "package_name": "com.example.e_parchi_frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73500574537-u8u1kdo8oo7uniq792399ke1hh74ltf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHiURkjTdcdfUMalUr0xA7srSwJg8trlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73500574537-u8u1kdo8oo7uniq792399ke1hh74ltf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
